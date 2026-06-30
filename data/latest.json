@@ -1,0 +1,39 @@
+{
+  "schema": "gemini-ratelimit-watch/1",
+  "generated_at": "2026-07-01T00:33:33.330476+09:00",
+  "change_detected": false,
+  "pages": [
+    {
+      "name": "rate-limits",
+      "label": "レート制限ドキュメント",
+      "url": "https://ai.google.dev/gemini-api/docs/rate-limits",
+      "changed": false,
+      "diff": "",
+      "error": null,
+      "watched_model_alerts": []
+    },
+    {
+      "name": "changelog",
+      "label": "リリースノート",
+      "url": "https://ai.google.dev/gemini-api/docs/changelog",
+      "changed": false,
+      "diff": "",
+      "error": null
+    }
+  ],
+  "service_tier": {
+    "current": "standard",
+    "previous": "standard",
+    "changed": false,
+    "error": null
+  },
+  "watched_models": [
+    {
+      "name": "Gemini 3.1 Flash-Lite",
+      "label": "Gemini 3.1 Flash-Lite（テキスト出力）",
+      "baseline": "RPM 4K / TPM 4M / RPD 150K（利用者申告値・要 AI Studio 確認）",
+      "present": true
+    }
+  ],
+  "note": "change_detected=true は変化のあった当日のみ。クラウドルーチンはこの内容を検証し、Flash-Lite/レート制限に影響する場合のみ Chatwork に [toall] 付きで通知する。"
+}

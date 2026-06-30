@@ -1,0 +1,9 @@
+# 秘密情報は絶対にコミットしない
+config.json
+
+# ローカル状態・ログ・キャッシュ（クラウドは data/latest.json だけ読む）
+state/
+*.log
+__pycache__/
+scratchpad/
+.claude/
