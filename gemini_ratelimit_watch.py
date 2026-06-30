@@ -132,8 +132,18 @@ def extract_main_text(page_html: str) -> str:
     lines = []
     for ln in body.split("\n"):
         ln = re.sub(r"[ \t ]+", " ", ln).strip()
-        if ln:
-            lines.append(ln)
+        if not ln:
+            continue
+        low = ln.lower()
+        # ページ更新のたびに変わるノイズ（差分の誤検知源）を除外
+        if any(n in low for n in (
+                "thumb-up", "thumb-down", "thumbup", "thumbdown",
+                "was this helpful", "send feedback", "need to tell us more")):
+            continue
+        # 「Last updated 2026-06-30 UTC.」のような更新日時行も除外
+        if re.match(r"last updated \d{4}-\d{2}-\d{2} utc\.?$", low):
+            continue
+        lines.append(ln)
     return "\n".join(lines)
 
 
