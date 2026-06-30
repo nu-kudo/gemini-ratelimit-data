@@ -1,14 +1,14 @@
 {
   "schema": "gemini-ratelimit-watch/1",
-  "generated_at": "2026-07-01T00:34:58.514161+09:00",
-  "change_detected": false,
+  "generated_at": "2026-07-01T00:47:47.691450+09:00",
+  "change_detected": true,
   "pages": [
     {
       "name": "rate-limits",
       "label": "レート制限ドキュメント",
       "url": "https://ai.google.dev/gemini-api/docs/rate-limits",
-      "changed": false,
-      "diff": "",
+      "changed": true,
+      "diff": "（追加）Gemini 3.1 Flash Lite Image 🍌\n（追加）2,000,000\n（追加）Gemini 3.1 Flash Lite Image 🍌\n（追加）270,000,000\n（追加）Gemini 3.1 Flash Lite Image 🍌\n（追加）1,000,000,000\n（削除）Last updated 2026-06-25 UTC.\n（追加）Last updated 2026-06-30 UTC.\n（削除）[[[\"Easy to understand\",\"easyToUnderstand\",\"thumb-up\"],[\"Solved my problem\",\"solvedMyProblem\",\"thumb-up\"],[\"Other\",\"otherUp\",\"thumb-up\"]],[[\"Missing the information I need\",\"missingTheInformationINeed\",\"thumb-down\"],[\"Too complicated / too many steps\",\"tooComplicatedTooManySteps\",\"thumb-down\"],[\"Out of date\",\"outOfDate\",\"thumb-down\"],[\"Samples / code issue\",\"samplesCodeIssue\",\"thumb-down\"],[\"Other\",\"otherDown\",\"thumb-down\"]],[\"Last updated 2026-06-25 UTC.\"],[],[]]\n（追加）[[[\"Easy to understand\",\"easyToUnderstand\",\"thumb-up\"],[\"Solved my problem\",\"solvedMyProblem\",\"thumb-up\"],[\"Other\",\"otherUp\",\"thumb-up\"]],[[\"Missing the information I need\",\"missingTheInformationINeed\",\"thumb-down\"],[\"Too complicated / too many steps\",\"tooComplicatedTooManySteps\",\"thumb-down\"],[\"Out of date\",\"outOfDate\",\"thumb-down\"],[\"Samples / code issue\",\"samplesCodeIssue\",\"thumb-down\"],[\"Other\",\"otherDown\",\"thumb-down\"]],[\"Last updated 2026-06-30 UTC.\"],[],[]]",
       "error": null,
       "watched_model_alerts": []
     },
@@ -16,8 +16,8 @@
       "name": "changelog",
       "label": "リリースノート",
       "url": "https://ai.google.dev/gemini-api/docs/changelog",
-      "changed": false,
-      "diff": "",
+      "changed": true,
+      "diff": "（追加）★重点 Released gemini-3.1-flash-lite-image (Nano Banana Lite) to general",
       "error": null
     }
   ],
