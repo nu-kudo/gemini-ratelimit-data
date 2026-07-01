@@ -1,6 +1,6 @@
 {
   "schema": "gemini-ratelimit-watch/1",
-  "generated_at": "2026-07-01T00:49:31.225478+09:00",
+  "generated_at": "2026-07-01T09:30:03.875719+09:00",
   "change_detected": false,
   "pages": [
     {
@@ -10,7 +10,7 @@
       "changed": false,
       "diff": "",
       "error": null,
-      "note": "初回スナップショット作成"
+      "watched_model_alerts": []
     },
     {
       "name": "changelog",
@@ -18,8 +18,7 @@
       "url": "https://ai.google.dev/gemini-api/docs/changelog",
       "changed": false,
       "diff": "",
-      "error": null,
-      "note": "初回スナップショット作成"
+      "error": null
     }
   ],
   "service_tier": {
