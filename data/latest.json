@@ -1,16 +1,18 @@
 {
   "schema": "gemini-ratelimit-watch/1",
-  "generated_at": "2026-07-03T09:30:04.017863+09:00",
-  "change_detected": false,
+  "generated_at": "2026-07-04T09:30:03.385044+09:00",
+  "change_detected": true,
   "pages": [
     {
       "name": "rate-limits",
       "label": "レート制限ドキュメント",
       "url": "https://ai.google.dev/gemini-api/docs/rate-limits",
-      "changed": false,
-      "diff": "",
+      "changed": true,
+      "diff": "（削除）Gemini 3.1 Flash-Lite\n（削除）10,000,000\n（削除）Gemini 3.1 Flash-Lite Preview\n（削除）10,000,000\n（削除）Gemini 3.5 Flash\n（削除）3,000,000\n（追加）Gemini 3.1 Flash Lite\n（追加）10,000,000\n（追加）Gemini 3.1 Flash Lite Preview\n（追加）10,000,000\n（削除）Gemini 2.5 Flash-Lite\n（削除）10,000,000\n（削除）Gemini 2.5 Flash-Lite Preview\n（追加）Gemini 2.5 Flash Lite\n（追加）10,000,000\n（追加）Gemini 2.5 Flash Lite Preview\n（削除）Gemini 2.0 Flash-Lite\n（追加）Gemini 2.0 Flash Lite\n（削除）Gemini 3.1 Flash-Lite\n（削除）500,000,000\n（削除）Gemini 3.1 Flash-Lite Preview\n（削除）500,000,000\n（削除）Gemini 3.5 Flash\n（削除）400,000,000\n（追加）Gemini 3.1 Flash Lite\n（追加）500,000,000\n（追加）Gemini 3.1 Flash Lite Preview\n（追加）500,000,000\n（削除）Gemini 2.5 Flash-Lite\n（削除）500,000,000\n（削除）Gemini 2.5 Flash-Lite Preview\n（追加）Gemini 2.5 Flash Lite\n（追加）500,000,000\n（追加）Gemini 2.5 Flash Lite Preview\n（削除）Gemini 2.0 Flash-Lite\n（追加）Gemini 2.0 Flash Lite\n（削除）Gemini 3.1 Flash-Lite\n（削除）1,000,000,000\n（削除）Gemini 3.1 Flash-Lite Preview\n（削除）1,000,000,000\n（削除）Gemini 3.5 Flash\n（追加）Gemini 3.1 Flash Lite\n（追加）1,000,000,000\n（追加）Gemini 3.1 Flash Lite Preview\n（削除）Gemini 2.5 Flash-Lite\n（削除）1,000,000,000\n（削除）Gemini 2.5 Flash-Lite Preview\n（追加）Gemini 2.5 Flash Lite\n（追加）1,000,000,000\n（追加）Gemini 2.5 Flash Lite Preview\n（削除）Gemini 2.0 Flash-Lite\n（追加）Gemini 2.0 Flash Lite",
       "error": null,
-      "watched_model_alerts": []
+      "watched_model_alerts": [
+        "⚠️ Gemini 3.1 Flash-Lite（テキスト出力） がレート制限ページのモデル一覧から消えました。提供終了・名称変更の可能性があります。至急 AI Studio で確認してください。"
+      ]
     },
     {
       "name": "changelog",
@@ -32,7 +34,7 @@
       "name": "Gemini 3.1 Flash-Lite",
       "label": "Gemini 3.1 Flash-Lite（テキスト出力）",
       "baseline": "RPM 4K / TPM 4M / RPD 150K（利用者申告値・要 AI Studio 確認）",
-      "present": true
+      "present": false
     }
   ],
   "note": "change_detected=true は変化のあった当日のみ。クラウドルーチンはこの内容を検証し、Flash-Lite/レート制限に影響する場合のみ Chatwork に [toall] 付きで通知する。"
