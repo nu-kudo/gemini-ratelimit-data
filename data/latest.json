@@ -1,18 +1,16 @@
 {
   "schema": "gemini-ratelimit-watch/1",
-  "generated_at": "2026-07-04T09:30:03.385044+09:00",
-  "change_detected": true,
+  "generated_at": "2026-07-05T09:30:03.593159+09:00",
+  "change_detected": false,
   "pages": [
     {
       "name": "rate-limits",
       "label": "レート制限ドキュメント",
       "url": "https://ai.google.dev/gemini-api/docs/rate-limits",
-      "changed": true,
-      "diff": "（削除）Gemini 3.1 Flash-Lite\n（削除）10,000,000\n（削除）Gemini 3.1 Flash-Lite Preview\n（削除）10,000,000\n（削除）Gemini 3.5 Flash\n（削除）3,000,000\n（追加）Gemini 3.1 Flash Lite\n（追加）10,000,000\n（追加）Gemini 3.1 Flash Lite Preview\n（追加）10,000,000\n（削除）Gemini 2.5 Flash-Lite\n（削除）10,000,000\n（削除）Gemini 2.5 Flash-Lite Preview\n（追加）Gemini 2.5 Flash Lite\n（追加）10,000,000\n（追加）Gemini 2.5 Flash Lite Preview\n（削除）Gemini 2.0 Flash-Lite\n（追加）Gemini 2.0 Flash Lite\n（削除）Gemini 3.1 Flash-Lite\n（削除）500,000,000\n（削除）Gemini 3.1 Flash-Lite Preview\n（削除）500,000,000\n（削除）Gemini 3.5 Flash\n（削除）400,000,000\n（追加）Gemini 3.1 Flash Lite\n（追加）500,000,000\n（追加）Gemini 3.1 Flash Lite Preview\n（追加）500,000,000\n（削除）Gemini 2.5 Flash-Lite\n（削除）500,000,000\n（削除）Gemini 2.5 Flash-Lite Preview\n（追加）Gemini 2.5 Flash Lite\n（追加）500,000,000\n（追加）Gemini 2.5 Flash Lite Preview\n（削除）Gemini 2.0 Flash-Lite\n（追加）Gemini 2.0 Flash Lite\n（削除）Gemini 3.1 Flash-Lite\n（削除）1,000,000,000\n（削除）Gemini 3.1 Flash-Lite Preview\n（削除）1,000,000,000\n（削除）Gemini 3.5 Flash\n（追加）Gemini 3.1 Flash Lite\n（追加）1,000,000,000\n（追加）Gemini 3.1 Flash Lite Preview\n（削除）Gemini 2.5 Flash-Lite\n（削除）1,000,000,000\n（削除）Gemini 2.5 Flash-Lite Preview\n（追加）Gemini 2.5 Flash Lite\n（追加）1,000,000,000\n（追加）Gemini 2.5 Flash Lite Preview\n（削除）Gemini 2.0 Flash-Lite\n（追加）Gemini 2.0 Flash Lite",
+      "changed": false,
+      "diff": "",
       "error": null,
-      "watched_model_alerts": [
-        "⚠️ Gemini 3.1 Flash-Lite（テキスト出力） がレート制限ページのモデル一覧から消えました。提供終了・名称変更の可能性があります。至急 AI Studio で確認してください。"
-      ]
+      "watched_model_alerts": []
     },
     {
       "name": "changelog",
