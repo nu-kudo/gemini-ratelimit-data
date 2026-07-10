@@ -1,7 +1,7 @@
 {
   "schema": "gemini-ratelimit-watch/1",
-  "generated_at": "2026-07-09T09:30:04.842479+09:00",
-  "change_detected": false,
+  "generated_at": "2026-07-10T09:30:03.346322+09:00",
+  "change_detected": true,
   "pages": [
     {
       "name": "rate-limits",
@@ -16,8 +16,8 @@
       "name": "changelog",
       "label": "リリースノート",
       "url": "https://ai.google.dev/gemini-api/docs/changelog",
-      "changed": false,
-      "diff": "",
+      "changed": true,
+      "diff": "（追加）★重点 Released gemini-3.1-flash-lite-image (Nano Banana 2 Lite) to general",
       "error": null
     }
   ],
