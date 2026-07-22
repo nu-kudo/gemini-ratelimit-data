@@ -1,14 +1,14 @@
 {
   "schema": "gemini-ratelimit-watch/1",
-  "generated_at": "2026-07-21T09:30:03.224485+09:00",
-  "change_detected": false,
+  "generated_at": "2026-07-22T09:30:03.837356+09:00",
+  "change_detected": true,
   "pages": [
     {
       "name": "rate-limits",
       "label": "レート制限ドキュメント",
       "url": "https://ai.google.dev/gemini-api/docs/rate-limits",
-      "changed": false,
-      "diff": "",
+      "changed": true,
+      "diff": "（追加）Gemini 3.5 Flash-Lite\n（追加）10,000,000\n（追加）Gemini 3.6 Flash\n（追加）3,000,000\n（追加）Gemini 3.5 Flash-Lite\n（追加）500,000,000\n（追加）Gemini 3.6 Flash\n（追加）400,000,000\n（追加）Gemini 3.5 Flash-Lite\n（追加）1,000,000,000\n（追加）1,000,000,000\n（追加）Gemini 3.6 Flash",
       "error": null,
       "watched_model_alerts": []
     },
@@ -16,8 +16,8 @@
       "name": "changelog",
       "label": "リリースノート",
       "url": "https://ai.google.dev/gemini-api/docs/changelog",
-      "changed": false,
-      "diff": "",
+      "changed": true,
+      "diff": "（追加）★重点 Gemini 3.6 Flash and Gemini 3.5 Flash-Lite generally available (GA) :\n（追加）★重点 Gemini 3.5 Flash-Lite ( gemini-3.5-flash-lite ): Offers a\n（追加）★重点 Deprecated parameters : The sampling parameters temperature , top_p\n（追加）★重点 and top_k are now deprecated. See the",
       "error": null
     }
   ],
