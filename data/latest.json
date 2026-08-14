@@ -1,14 +1,14 @@
 {
   "schema": "gemini-ratelimit-watch/1",
-  "generated_at": "2026-08-13T09:30:04.120728+09:00",
-  "change_detected": false,
+  "generated_at": "2026-08-14T09:30:04.740244+09:00",
+  "change_detected": true,
   "pages": [
     {
       "name": "rate-limits",
       "label": "レート制限ドキュメント",
       "url": "https://ai.google.dev/gemini-api/docs/rate-limits",
-      "changed": false,
-      "diff": "",
+      "changed": true,
+      "diff": "（追加）Gemini 3.7 Flash\n（追加）3,000,000",
       "error": null,
       "watched_model_alerts": []
     },
