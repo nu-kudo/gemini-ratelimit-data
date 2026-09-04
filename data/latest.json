@@ -1,14 +1,14 @@
 {
   "schema": "gemini-ratelimit-watch/1",
-  "generated_at": "2026-09-03T09:30:04.347019+09:00",
-  "change_detected": true,
+  "generated_at": "2026-09-04T09:30:03.571768+09:00",
+  "change_detected": false,
   "pages": [
     {
       "name": "rate-limits",
       "label": "レート制限ドキュメント",
       "url": "https://ai.google.dev/gemini-api/docs/rate-limits",
-      "changed": true,
-      "diff": "（削除）Gemini 3.7 Flash is now available. Try it out .\n（追加）Gemini 3.8 Flash is now available. Try it out .\n（追加）Gemini 3.8 Flash\n（追加）3,000,000\n（追加）Gemini 3.8 Flash\n（追加）400,000,000\n（追加）Gemini 3.7 Flash\n（追加）400,000,000\n（追加）Gemini 3.8 Flash\n（追加）1,000,000,000\n（追加）Gemini 3.7 Flash\n（追加）1,000,000,000",
+      "changed": false,
+      "diff": "",
       "error": null,
       "watched_model_alerts": []
     },
