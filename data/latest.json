@@ -1,7 +1,7 @@
 {
   "schema": "gemini-ratelimit-watch/1",
-  "generated_at": "2026-09-18T09:30:04.079226+09:00",
-  "change_detected": true,
+  "generated_at": "2026-09-19T09:30:03.728603+09:00",
+  "change_detected": false,
   "pages": [
     {
       "name": "rate-limits",
@@ -16,8 +16,8 @@
       "name": "changelog",
       "label": "リリースノート",
       "url": "https://ai.google.dev/gemini-api/docs/changelog",
-      "changed": true,
-      "diff": "（追加）★重点 which replaces and deprecates antigravity-preview-05-2026 .\n（追加）★重点 deprecations page.",
+      "changed": false,
+      "diff": "",
       "error": null
     }
   ],
