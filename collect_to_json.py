@@ -6,7 +6,7 @@
 gemini_ratelimit_watch.py の関数を再利用して、
   - レート制限ドキュメント / リリースノートの差分
   - Service-Tier の変化
-  - Gemini 3.1 Flash-Lite の在否
+  - Gemini 3.5 Flash-Lite の在否
 を収集し、data/latest.json に出力する。
 
 Chatwork への通知はここでは行わない（クラウドルーチン側が JSON を検証して通知する）。

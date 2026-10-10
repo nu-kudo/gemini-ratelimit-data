@@ -50,11 +50,11 @@ DEPRECATION_KEYWORDS = [
 # 重点監視するモデル。公開ページには数値が載らないため baseline は参考表示用。
 WATCHED_MODELS = [
     {
-        "name": "Gemini 3.1 Flash-Lite",   # ページ上の表記（ハイフン）
-        "label": "Gemini 3.1 Flash-Lite（テキスト出力）",
-        "baseline": "RPM 4K / TPM 4M / RPD 150K（利用者申告値・要 AI Studio 確認）",
+        "name": "Gemini 3.5 Flash-Lite",   # ページ上の表記（ハイフン）
+        "label": "Gemini 3.5 Flash-Lite（テキスト出力）",
+        "baseline": "要確認（利用者申告値未設定・要 AI Studio 確認）",
         # 行内検出用エイリアス（小文字）
-        "aliases": ["gemini 3.1 flash-lite", "flash-lite"],
+        "aliases": ["gemini 3.5 flash-lite", "flash-lite"],
     },
 ]
 
